@@ -1,1 +1,41 @@
-[]
+[
+ {
+  "datum": "2026-11-07",
+  "editie": "avond",
+  "titel": "Avondjournaal zaterdag 7 november 2026",
+  "bestand": "2026-11-07-avond.mp3",
+  "gemaakt": "2026-11-07T21:00:31.161764+01:00",
+  "duur_sec": 795,
+  "bytes": 6360253,
+  "omschrijving": "Avondjournaal: Krakau, Trump en blue wave",
+  "onderwerpen": [
+   "Schietpartij in Krakau",
+   "Trump, Justitie en Stephen Miller",
+   "Democratische overwinning bij de midterms",
+   "Binance-hack en Nvidia-topman",
+   "Datacenterprotest Amsterdam",
+   "Hack Italiaanse minister en fraudeonderzoek Spanje",
+   "Belastingplan minderheidskabinet",
+   "Nieuw-Zeeland",
+   "Israël Eisenkot",
+   "Paraguay",
+   "Kyiv aanvallen",
+   "Jemen en Syrië",
+   "Lagarde en Berkshire",
+   "El Hierro"
+  ],
+  "woorden": 1903,
+  "tts_tekens": 12252,
+  "claude_kosten_usd": 0.1483,
+  "feitencheck_aanpassingen": 4,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur",
+   "BBC (economie): geen berichten in de afgelopen 12 uur",
+   "BBC (tech): geen berichten in de afgelopen 12 uur",
+   "Computable (tech): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
+ }
+]
