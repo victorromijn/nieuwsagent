@@ -37,7 +37,9 @@ def selecteer(llm, cfg: dict, editie: dict, items: list[Item], vorige: list[str]
         "vorige_onderwerpen": "\n".join(f"- {v}" for v in vorige) or "- (geen)",
     })
     user = "BERICHTEN:\n" + _lijst_voor_selectie(items, cfg["luisteraar"]["tijdzone"])
-    keuze = llm.json("selectie", cfg["modellen"]["selectie"], system, user, max_tokens=4000)
+    inst = cfg.get("inspanning", {}).get("selectie", {})
+    keuze = llm.json("selectie", cfg["modellen"]["selectie"], system, user, max_tokens=16000,
+                     inspanning=inst.get("niveau"), denken=inst.get("nadenken", False))
 
     bekend = {it.id for it in items}
     for sectie in ("hoofditems", "kort_nieuws", "regionaal", "opmerkelijk", "agenda"):
@@ -107,7 +109,9 @@ def schrijf(llm, cfg: dict, editie: dict, pakket: str, extras: dict, context: di
     user = ("BRONNEN:\n\n" + pakket +
             "\n\nVASTE GEGEVENS (weer, koers, geschiedenis):\n" +
             json.dumps(extras, ensure_ascii=False, indent=1))
-    script = llm.json("script", cfg["modellen"]["script"], system, user, max_tokens=12000)
+    inst = cfg.get("inspanning", {}).get("script", {})
+    script = llm.json("script", cfg["modellen"]["script"], system, user, max_tokens=40000,
+                      inspanning=inst.get("niveau", "medium"), denken=inst.get("nadenken", True))
     return _schoon_script(script)
 
 
@@ -135,7 +139,9 @@ def feitencheck(llm, cfg: dict, script: dict, pakket: str, extras: dict, context
                           for i, s in enumerate(script["segmenten"]))
     user = ("SCRIPT:\n" + genummerd + "\n\nBRONNEN:\n\n" + pakket +
             "\n\nVASTE GEGEVENS:\n" + json.dumps(extras, ensure_ascii=False, indent=1))
-    oordeel = llm.json("feitencheck", cfg["modellen"]["feitencheck"], system, user, max_tokens=6000)
+    inst = cfg.get("inspanning", {}).get("feitencheck", {})
+    oordeel = llm.json("feitencheck", cfg["modellen"]["feitencheck"], system, user, max_tokens=32000,
+                       inspanning=inst.get("niveau", "medium"), denken=inst.get("nadenken", True))
 
     wijzigingen = []
     segs = script["segmenten"]

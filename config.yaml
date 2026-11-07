@@ -28,6 +28,14 @@ modellen:
   script: claude-sonnet-5-5
   feitencheck: claude-haiku-5-5
 
+# Hoeveel Claude nadenkt per taak (low, medium of high).
+# Meer nadenken = betere kwaliteit, maar trager en iets duurder.
+# Nadenken uitzetten kan alleen bij Haiku.
+inspanning:
+  selectie:    {niveau: low,    nadenken: false}
+  script:      {niveau: medium, nadenken: true}
+  feitencheck: {niveau: medium, nadenken: true}
+
 # Google Chirp 3 HD-stemmen. Vlaams? Vervang nl-NL door nl-BE.
 # Andere stemnamen: zie de handleiding.
 stemmen:

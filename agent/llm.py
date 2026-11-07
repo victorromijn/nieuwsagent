@@ -49,21 +49,47 @@ class Claude:
             self.client = self._anthropic.Anthropic(api_key=self.key, default_headers=self.headers)
             return self.client.messages.create(**kwargs)
 
-    def json(self, taak: str, model: str, system: str, user: str, max_tokens: int = 8000) -> dict:
+    def json(self, taak: str, model: str, system: str, user: str, max_tokens: int = 8000,
+             inspanning: str | None = None, denken: bool = True) -> dict:
+        """inspanning: low/medium/high. denken=False zet het nadenken uit (alleen Haiku 5.5)."""
         laatste_fout = None
+        extra: dict = {}
+        if inspanning:
+            extra["output_config"] = {"effort": inspanning}
+        if not denken:
+            extra["thinking"] = {"type": "disabled"}
         for poging in range(3):
-            resp = self._create(
-                model=model,
-                max_tokens=max_tokens,
-                system=system,
-                messages=[{"role": "user", "content": user}],
-            )
+            try:
+                resp = self._create(
+                    model=model,
+                    max_tokens=max_tokens,
+                    system=system,
+                    messages=[{"role": "user", "content": user}],
+                    extra_body=extra or None,
+                )
+            except self._anthropic.BadRequestError as exc:
+                if extra:
+                    log.warning("%s: instellingen geweigerd (%s), opnieuw zonder", taak, exc)
+                    extra = {}
+                    continue
+                raise
+            log.info("%s: stop=%s, uitvoer %d tokens", taak, resp.stop_reason, resp.usage.output_tokens)
+            if resp.stop_reason == "max_tokens":
+                self.verbruik.append({"taak": taak, "model": model,
+                                      "invoer_tokens": resp.usage.input_tokens,
+                                      "uitvoer_tokens": resp.usage.output_tokens})
+                max_tokens = min(max_tokens * 2, 64000)
+                log.warning("%s: antwoord afgekapt, opnieuw met max_tokens=%d", taak, max_tokens)
+                continue
             self.verbruik.append({
                 "taak": taak, "model": model,
                 "invoer_tokens": resp.usage.input_tokens,
                 "uitvoer_tokens": resp.usage.output_tokens,
             })
             tekst = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
+            if not tekst.strip():
+                soorten = [getattr(b, "type", "?") for b in resp.content]
+                log.warning("%s: leeg antwoord (blokken: %s, stop=%s)", taak, soorten, resp.stop_reason)
             try:
                 return parse_json(tekst)
             except json.JSONDecodeError as exc:
@@ -79,7 +105,8 @@ class NepClaude:
         self.verbruik: list[dict] = []
         self.items: list[dict] = []
 
-    def json(self, taak: str, model: str, system: str, user: str, max_tokens: int = 8000) -> dict:
+    def json(self, taak: str, model: str, system: str, user: str, max_tokens: int = 8000,
+             inspanning: str | None = None, denken: bool = True) -> dict:
         self.verbruik.append({"taak": taak, "model": "nep", "invoer_tokens": len(user) // 4, "uitvoer_tokens": 0})
         ids = re.findall(r"^\[(\w{7})\]", user, flags=re.M)
         if taak == "selectie":
