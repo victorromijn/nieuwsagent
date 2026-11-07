@@ -44,8 +44,8 @@ bronnen:
 
   # Vakbronnen
   - {naam: Emerce, soort: google_news, zoek: "site:emerce.nl", taal: nl, rubriek: tech, volledige_tekst: false, gewicht: 1}
-  - {naam: Frankwatching, soort: rss, url: "https://www.frankwatching.com/feed/", rubriek: tech, volledige_tekst: true, gewicht: 1}
-  - {naam: Tweakers, soort: rss, url: "https://feeds.feedburner.com/tweakers/mixed", rubriek: tech, volledige_tekst: true, gewicht: 1}
+  - {naam: Frankwatching, soort: google_news, zoek: "site:frankwatching.com", taal: nl, rubriek: tech, volledige_tekst: false, gewicht: 1}
+  - {naam: Tweakers, soort: google_news, zoek: "site:tweakers.net", taal: nl, rubriek: tech, volledige_tekst: false, gewicht: 1}
   - {naam: Computable, soort: google_news, zoek: "site:computable.nl", taal: nl, rubriek: tech, volledige_tekst: false, gewicht: 1}
   - {naam: TechCrunch, soort: rss, url: "https://techcrunch.com/feed/", rubriek: tech, volledige_tekst: true, gewicht: 1}
 

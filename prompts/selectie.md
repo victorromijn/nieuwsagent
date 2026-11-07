@@ -32,7 +32,7 @@ Deze onderwerpen zaten in de vorige uitzending. Neem ze alleen opnieuw op als er
 HOE JE KIEST
 - Belang: hoeveel mensen raakt het, hoe groot zijn de gevolgen, en wat betekent het voor een Nederlandse ondernemer?
 - Bevestiging: een onderwerp dat bij meerdere bronnen voorkomt weegt zwaarder. De NOS is de basisbron.
-- Kies bij elk hoofditem bij voorkeur ook een bericht van een bron met volledige tekst (NOS, NU.nl, BBC, The Guardian, Al Jazeera, Tweakers, TechCrunch, Frankwatching). Titels met een betaalmuur (NRC, Volkskrant, FD, FT, Economist, NYT, Reuters, AP) mogen erbij als bevestiging.
+- Kies bij elk hoofditem bij voorkeur ook een bericht van een bron met volledige tekst (NOS, NU.nl, BBC, The Guardian, Al Jazeera, TechCrunch). Titels met een betaalmuur (NRC, Volkskrant, FD, FT, Economist, NYT, Reuters, AP) mogen erbij als bevestiging.
 - Spreiding: niet alle hoofditems uit dezelfde rubriek. Mik op een mix van binnenland, buitenland, economie en tech.
 - Aantal hoofditems: 5 tot 7. Is het een rustige nieuwsdag, kies er dan 5. Vul nooit op met onbelangrijk nieuws.
 - Kort nieuws: 4 tot 8 kleinere onderwerpen die het noemen waard zijn.
