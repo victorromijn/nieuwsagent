@@ -37,5 +37,42 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-07",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal zaterdag 7 november 2026",
+  "bestand": "2026-11-07-ochtend.mp3",
+  "gemaakt": "2026-11-07T22:30:13.658518+01:00",
+  "duur_sec": 691,
+  "bytes": 5530397,
+  "omschrijving": "Ochtendjournaal: Krakau, Israël, Iran en Trump",
+  "onderwerpen": [
+   "Schietpartij Krakau",
+   "Eisenkot krijgt opdracht regering te vormen in Israël",
+   "Amerikaanse aanval op Qeshm, Iran",
+   "Stephen Miller stafchef Witte Huis en Justitie-onderzoek naar Democraten",
+   "Nieuw-Zeeland nek-aan-nekverkiezing",
+   "Binance-financieel directeur vertrekt",
+   "Nvidia-topman en vermeende Chinese spion",
+   "Paraguay president afgezet",
+   "Italiaanse minister gehackt",
+   "EU-fraudeonderzoek Spaans spoor",
+   "Europol-onderzoek bommeldingen",
+   "Apple tekstvoorspelling",
+   "EU-aanklacht TikTok",
+   "Schietpartij Schiedam",
+   "Protesten Frankrijk"
+  ],
+  "woorden": 1625,
+  "tts_tekens": 10568,
+  "claude_kosten_usd": 0.1544,
+  "feitencheck_aanpassingen": 6,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
