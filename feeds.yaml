@@ -15,10 +15,10 @@ bronnen:
   - {naam: NOS, soort: rss, url: "https://feeds.nos.nl/nosnieuwsopmerkelijk", rubriek: opmerkelijk, volledige_tekst: true, gewicht: 3}
 
   # Nederland, aanvullend (ANP-berichten komen via NU.nl en AD binnen)
-  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Algemeen", rubriek: algemeen, volledige_tekst: true, gewicht: 2}
-  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Economie", rubriek: economie, volledige_tekst: true, gewicht: 2}
-  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Tech", rubriek: tech, volledige_tekst: true, gewicht: 2}
-  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Wetenschap", rubriek: wetenschap, volledige_tekst: true, gewicht: 2}
+  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Algemeen", rubriek: algemeen, volledige_tekst: false, gewicht: 2}
+  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Economie", rubriek: economie, volledige_tekst: false, gewicht: 2}
+  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Tech", rubriek: tech, volledige_tekst: false, gewicht: 2}
+  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Wetenschap", rubriek: wetenschap, volledige_tekst: false, gewicht: 2}
   - {naam: NRC, soort: rss, url: "https://www.nrc.nl/rss/", rubriek: algemeen, volledige_tekst: false, gewicht: 2}
   - {naam: de Volkskrant, soort: rss, url: "https://www.volkskrant.nl/voorpagina/rss.xml", rubriek: algemeen, volledige_tekst: false, gewicht: 2}
   - {naam: AD, soort: rss, url: "https://www.ad.nl/home/rss.xml", rubriek: algemeen, volledige_tekst: false, gewicht: 1}

@@ -38,16 +38,21 @@ class Claude:
         self.verbruik: list[dict] = []
         log.info("Claude-sleutel: %s...%s (%d tekens)", self.key[:14], self.key[-4:], len(self.key))
 
+    def _stream(self, **kwargs):
+        # Streaming is verplicht bij lange antwoorden; we wachten gewoon op het eindresultaat.
+        with self.client.messages.stream(**kwargs) as stream:
+            return stream.get_final_message()
+
     def _create(self, **kwargs):
         try:
-            return self.client.messages.create(**kwargs)
+            return self._stream(**kwargs)
         except self._anthropic.AuthenticationError:
             if self.reserve_gebruikt:
                 raise
             log.warning("Bearer-token geweigerd, opnieuw met x-api-key")
             self.reserve_gebruikt = True
             self.client = self._anthropic.Anthropic(api_key=self.key, default_headers=self.headers)
-            return self.client.messages.create(**kwargs)
+            return self._stream(**kwargs)
 
     def json(self, taak: str, model: str, system: str, user: str, max_tokens: int = 8000,
              inspanning: str | None = None, denken: bool = True) -> dict:
