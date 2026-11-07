@@ -1,0 +1,73 @@
+name: Nieuwsuitzending
+
+on:
+  # Hoofdstart: via cron-job.org (zie handleiding), op de minuut nauwkeurig.
+  workflow_dispatch:
+    inputs:
+      editie:
+        description: "Welke editie? (auto, ochtend of avond)"
+        required: false
+        default: auto
+      forceer:
+        description: "Opnieuw maken als hij vandaag al verstuurd is? (ja of nee)"
+        required: false
+        default: "nee"
+  # Reserve: draait alleen als de editie nog niet verstuurd is.
+  # Tijden in UTC: 05:50 UTC = 06:50 winter / 07:50 zomer, 16:50 UTC = 17:50 winter / 18:50 zomer.
+  schedule:
+    - cron: "50 5 * * *"
+    - cron: "50 16 * * *"
+
+concurrency:
+  group: nieuwsagent
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  uitzending:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Geluidsprogramma installeren
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+
+      - name: Onderdelen installeren
+        run: pip install -r requirements.txt
+
+      - name: Uitzending maken en versturen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PODCAST_PROTOCOL: ${{ secrets.PODCAST_PROTOCOL }}
+          PODCAST_HOST: ${{ secrets.PODCAST_HOST }}
+          PODCAST_USER: ${{ secrets.PODCAST_USER }}
+          PODCAST_PASSWORD: ${{ secrets.PODCAST_PASSWORD }}
+          PODCAST_DIR: ${{ secrets.PODCAST_DIR }}
+          PODCAST_BASE_URL: ${{ secrets.PODCAST_BASE_URL }}
+        run: >
+          python -m agent.main
+          --editie "${{ github.event.inputs.editie || 'auto' }}"
+          ${{ github.event.inputs.forceer == 'ja' && '--forceer' || '' }}
+
+      - name: Archief bijwerken
+        if: always()
+        run: |
+          git config user.name "nieuwsagent"
+          git config user.email "nieuwsagent@users.noreply.github.com"
+          git add archive
+          if ! git diff --cached --quiet; then
+            git commit -m "Archief $(date +%F)"
+            git pull --rebase --autostash
+            git push
+          fi

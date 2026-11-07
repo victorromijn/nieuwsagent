@@ -1,0 +1,8 @@
+anthropic>=0.40
+feedparser>=6.0
+requests>=2.31
+trafilatura>=1.8
+pyyaml>=6.0
+numpy>=1.26
+python-dateutil>=2.9
+paramiko>=3.4

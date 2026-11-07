@@ -1,0 +1,55 @@
+# Nieuwsbronnen.
+# soort: rss (gewone feed) of google_news (zoekopdracht via Google News)
+# volledige_tekst: true = het artikel is vrij leesbaar, de agent haalt de hele tekst op
+# gewicht: 3 = basisbron, 2 = belangrijk, 1 = aanvullend
+# Controleer met de workflow "Feeds controleren" welke bronnen werken.
+
+bronnen:
+  # Nederland, basis
+  - {naam: NOS, soort: rss, url: "https://feeds.nos.nl/nosnieuwsalgemeen", rubriek: algemeen, volledige_tekst: true, gewicht: 3}
+  - {naam: NOS, soort: rss, url: "https://feeds.nos.nl/nosnieuwsbinnenland", rubriek: binnenland, volledige_tekst: true, gewicht: 3}
+  - {naam: NOS, soort: rss, url: "https://feeds.nos.nl/nosnieuwsbuitenland", rubriek: buitenland, volledige_tekst: true, gewicht: 3}
+  - {naam: NOS, soort: rss, url: "https://feeds.nos.nl/nosnieuwspolitiek", rubriek: politiek, volledige_tekst: true, gewicht: 3}
+  - {naam: NOS, soort: rss, url: "https://feeds.nos.nl/nosnieuwseconomie", rubriek: economie, volledige_tekst: true, gewicht: 3}
+  - {naam: NOS, soort: rss, url: "https://feeds.nos.nl/nosnieuwstech", rubriek: tech, volledige_tekst: true, gewicht: 3}
+  - {naam: NOS, soort: rss, url: "https://feeds.nos.nl/nosnieuwsopmerkelijk", rubriek: opmerkelijk, volledige_tekst: true, gewicht: 3}
+
+  # Nederland, aanvullend (ANP-berichten komen via NU.nl en AD binnen)
+  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Algemeen", rubriek: algemeen, volledige_tekst: true, gewicht: 2}
+  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Economie", rubriek: economie, volledige_tekst: true, gewicht: 2}
+  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Tech", rubriek: tech, volledige_tekst: true, gewicht: 2}
+  - {naam: NU.nl, soort: rss, url: "https://www.nu.nl/rss/Wetenschap", rubriek: wetenschap, volledige_tekst: true, gewicht: 2}
+  - {naam: NRC, soort: rss, url: "https://www.nrc.nl/rss/", rubriek: algemeen, volledige_tekst: false, gewicht: 2}
+  - {naam: de Volkskrant, soort: rss, url: "https://www.volkskrant.nl/voorpagina/rss.xml", rubriek: algemeen, volledige_tekst: false, gewicht: 2}
+  - {naam: AD, soort: rss, url: "https://www.ad.nl/home/rss.xml", rubriek: algemeen, volledige_tekst: false, gewicht: 1}
+  - {naam: FD, soort: google_news, zoek: "site:fd.nl", taal: nl, rubriek: economie, volledige_tekst: false, gewicht: 2}
+  - {naam: RTL Nieuws, soort: google_news, zoek: "site:rtl.nl/nieuws", taal: nl, rubriek: algemeen, volledige_tekst: false, gewicht: 1}
+  - {naam: BNR, soort: google_news, zoek: "site:bnr.nl", taal: nl, rubriek: economie, volledige_tekst: false, gewicht: 1}
+
+  # Internationaal
+  - {naam: Reuters, soort: google_news, zoek: "site:reuters.com", taal: en, rubriek: buitenland, volledige_tekst: false, gewicht: 2}
+  - {naam: AP, soort: google_news, zoek: "site:apnews.com", taal: en, rubriek: buitenland, volledige_tekst: false, gewicht: 2}
+  - {naam: BBC, soort: rss, url: "https://feeds.bbci.co.uk/news/world/rss.xml", rubriek: buitenland, volledige_tekst: true, gewicht: 2}
+  - {naam: BBC, soort: rss, url: "https://feeds.bbci.co.uk/news/uk/rss.xml", rubriek: vk, volledige_tekst: true, gewicht: 2}
+  - {naam: BBC, soort: rss, url: "https://feeds.bbci.co.uk/news/business/rss.xml", rubriek: economie, volledige_tekst: true, gewicht: 1}
+  - {naam: BBC, soort: rss, url: "https://feeds.bbci.co.uk/news/technology/rss.xml", rubriek: tech, volledige_tekst: true, gewicht: 1}
+  - {naam: The Guardian, soort: rss, url: "https://www.theguardian.com/world/rss", rubriek: buitenland, volledige_tekst: true, gewicht: 2}
+  - {naam: The Guardian, soort: rss, url: "https://www.theguardian.com/technology/rss", rubriek: tech, volledige_tekst: true, gewicht: 1}
+  - {naam: The Guardian, soort: rss, url: "https://www.theguardian.com/environment/climate-crisis/rss", rubriek: wetenschap, volledige_tekst: true, gewicht: 1}
+  - {naam: Al Jazeera, soort: rss, url: "https://www.aljazeera.com/xml/rss/all.xml", rubriek: buitenland, volledige_tekst: true, gewicht: 1}
+  - {naam: Financial Times, soort: google_news, zoek: "site:ft.com", taal: en, rubriek: economie, volledige_tekst: false, gewicht: 2}
+  - {naam: The Economist, soort: google_news, zoek: "site:economist.com", taal: en, rubriek: economie, volledige_tekst: false, gewicht: 1}
+  - {naam: New York Times, soort: rss, url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", rubriek: buitenland, volledige_tekst: false, gewicht: 1}
+  - {naam: New York Times, soort: rss, url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", rubriek: tech, volledige_tekst: false, gewicht: 1}
+
+  # Vakbronnen
+  - {naam: Emerce, soort: google_news, zoek: "site:emerce.nl", taal: nl, rubriek: tech, volledige_tekst: false, gewicht: 1}
+  - {naam: Frankwatching, soort: rss, url: "https://www.frankwatching.com/feed/", rubriek: tech, volledige_tekst: true, gewicht: 1}
+  - {naam: Tweakers, soort: rss, url: "https://feeds.feedburner.com/tweakers/mixed", rubriek: tech, volledige_tekst: true, gewicht: 1}
+  - {naam: Computable, soort: google_news, zoek: "site:computable.nl", taal: nl, rubriek: tech, volledige_tekst: false, gewicht: 1}
+  - {naam: TechCrunch, soort: rss, url: "https://techcrunch.com/feed/", rubriek: tech, volledige_tekst: true, gewicht: 1}
+
+  # Regionaal
+  - {naam: Lokaal Houten, soort: google_news, zoek: "Houten", taal: nl, rubriek: regionaal, volledige_tekst: false, gewicht: 2}
+  - {naam: RTV Utrecht, soort: google_news, zoek: "site:rtvutrecht.nl", taal: nl, rubriek: regionaal, volledige_tekst: false, gewicht: 1}
+  - {naam: West-Zeeuws-Vlaanderen, soort: google_news, zoek: "Oostburg OR Sluis OR Cadzand OR Breskens OR \"Zeeuws-Vlaanderen\"", taal: nl, rubriek: regionaal, volledige_tekst: false, gewicht: 1}

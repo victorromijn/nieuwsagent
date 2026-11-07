@@ -1,0 +1,62 @@
+# Persoonlijke instellingen van de nieuwsagent.
+# Je kunt dit bestand op GitHub aanpassen via het potloodje rechtsboven.
+
+luisteraar:
+  naam: Victor
+  tijdzone: Europe/Amsterdam
+
+edities:
+  ochtend:
+    titel: Ochtendjournaal
+    begroeting: Goedemorgen
+    terugkijken_uren: 24        # nieuws van de afgelopen 24 uur
+    max_minuten: 15
+    weer_voor: vandaag
+    vooruitblik: vandaag        # agenda en grote evenementen
+  avond:
+    titel: Avondjournaal
+    begroeting: Goedenavond
+    terugkijken_uren: 12        # nieuws sinds de ochtend
+    max_minuten: 15
+    weer_voor: morgen
+    vooruitblik: morgen
+
+# Claude-modellen: Haiku selecteert, Sonnet schrijft, Haiku controleert.
+# Wil je strengere controle, zet feitencheck dan op claude-sonnet-5-5.
+modellen:
+  selectie: claude-haiku-5-5
+  script: claude-sonnet-5-5
+  feitencheck: claude-haiku-5-5
+
+# Google Chirp 3 HD-stemmen. Vlaams? Vervang nl-NL door nl-BE.
+# Andere stemnamen: zie de handleiding.
+stemmen:
+  lezer: nl-NL-Chirp3-HD-Aoede      # vrouw, nieuwslezer
+  duider: nl-NL-Chirp3-HD-Achird    # man, duiding en achtergrond
+  spreeksnelheid: 1.0
+
+weer:
+  - naam: Houten
+    lat: 52.028
+    lon: 5.168
+    fietsweer: true
+  - naam: De Bilt
+    lat: 52.101
+    lon: 5.178
+    fietsweer: false
+    landelijk: true
+
+# Vaste focus die de redactie altijd meeweegt
+focus:
+  - "AI en de gevolgen voor de arbeidsmarkt"
+  - "Ondernemen en mkb, retail en e-commerce"
+  - "Marketingtech en adtech"
+  - "Cybersecurity en Big Tech"
+  - "Geopolitiek, Europa en het Verenigd Koninkrijk"
+  - "Klimaat en duurzaamheid, defensie en veiligheid"
+
+# Podcastfeed (fase 2). Laat leeg als je alleen Telegram wilt.
+podcast:
+  titel: "Nieuws voor Victor"
+  omschrijving: "Persoonlijke nieuwsuitzending, alleen voor eigen gebruik."
+  bewaar_dagen: 0              # 0 = onbeperkt archief

@@ -1,0 +1,9 @@
+{
+ "weer": [
+  {"plaats": "Houten", "landelijk_beeld": false, "datum": "2026-11-07", "omschrijving": "half bewolkt",
+   "max_temp_c": 9, "min_temp_c": 4, "neerslag_mm": 0.4, "kans_op_neerslag_pct": 30, "wind_bft": 3, "windrichting": "zuidwest",
+   "fietsweer": {"ochtendspits 7 tot 9 uur": {"kans_op_neerslag_pct": 10, "neerslag_mm": 0.0, "wind_bft": 2, "windrichting": "zuid", "temp_c": 5}}}
+ ],
+ "euro_dollar": {"datum_koers": "2026-11-06", "een_euro_in_dollar": "1,0812", "vorige_koers": "1,0790", "verandering_pct": "+0,20", "bron": "testdata"},
+ "vandaag_in_de_geschiedenis": [{"jaar": 1900, "gebeurtenis": "Testgebeurtenis", "taal": "nl"}]
+}
