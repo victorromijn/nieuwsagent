@@ -20,15 +20,39 @@ def parse_json(text: str) -> dict:
 
 
 class Claude:
+    """Stuurt de sleutel als Bearer-token (aanbevolen), met x-api-key als reserve."""
+
     def __init__(self) -> None:
+        import os
         import anthropic
-        self.client = anthropic.Anthropic(api_key=env("ANTHROPIC_API_KEY"))
+        self._anthropic = anthropic
+        self.key = re.sub(r"\s+", "", env("ANTHROPIC_API_KEY"))
+        os.environ.pop("ANTHROPIC_API_KEY", None)  # anders stuurt de SDK hem ook als x-api-key mee
+        headers = {}
+        workspace = os.environ.get("ANTHROPIC_WORKSPACE_ID", "").strip()
+        if workspace:
+            headers["anthropic-workspace-id"] = workspace
+        self.headers = headers
+        self.client = anthropic.Anthropic(auth_token=self.key, default_headers=headers)
+        self.reserve_gebruikt = False
         self.verbruik: list[dict] = []
+        log.info("Claude-sleutel: %s...%s (%d tekens)", self.key[:14], self.key[-4:], len(self.key))
+
+    def _create(self, **kwargs):
+        try:
+            return self.client.messages.create(**kwargs)
+        except self._anthropic.AuthenticationError:
+            if self.reserve_gebruikt:
+                raise
+            log.warning("Bearer-token geweigerd, opnieuw met x-api-key")
+            self.reserve_gebruikt = True
+            self.client = self._anthropic.Anthropic(api_key=self.key, default_headers=self.headers)
+            return self.client.messages.create(**kwargs)
 
     def json(self, taak: str, model: str, system: str, user: str, max_tokens: int = 8000) -> dict:
         laatste_fout = None
         for poging in range(3):
-            resp = self.client.messages.create(
+            resp = self._create(
                 model=model,
                 max_tokens=max_tokens,
                 system=system,
