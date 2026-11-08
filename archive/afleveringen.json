@@ -103,5 +103,49 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-08",
+  "editie": "avond",
+  "titel": "Avondjournaal zondag 8 november 2026",
+  "bestand": "2026-11-08-avond.mp3",
+  "gemaakt": "2026-11-08T13:14:50.301313+01:00",
+  "duur_sec": 754,
+  "bytes": 6036333,
+  "omschrijving": "Avondjournaal: Krakau, Japan en Amerikaanse midterms",
+  "onderwerpen": [
+   "Aardbeving in Midden-Japan",
+   "Schietpartij Krakau",
+   "Amerikaanse midterms",
+   "Amerikaanse beschieting vrachtschip Golf van Oman",
+   "Houthi-raketten Riyad",
+   "Stakingsoproep Mercedes-Benz Berlijn",
+   "Eisenkot krijgt formatieopdracht Israël",
+   "Britse overweging verbod Vinted en eBay",
+   "Apple-toetsenbordfilter",
+   "Nvidia-topman Huang",
+   "Anthropic gasdeal",
+   "AI-klachten Britse instanties",
+   "Oekraïne stroomuitval",
+   "Dana White perschef",
+   "Executies Iran"
+  ],
+  "woorden": 1819,
+  "tts_tekens": 11749,
+  "claude_kosten_usd": 0.1384,
+  "feitencheck_aanpassingen": 5,
+  "feeds_met_problemen": [
+   "NOS (politiek): geen berichten in de afgelopen 12 uur",
+   "NOS (economie): geen berichten in de afgelopen 12 uur",
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (tech): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur",
+   "New York Times (tech): geen berichten in de afgelopen 12 uur",
+   "Computable (tech): geen berichten in de afgelopen 12 uur",
+   "TechCrunch (tech): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
