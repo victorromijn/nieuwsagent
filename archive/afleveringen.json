@@ -74,5 +74,34 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-08",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal zondag 8 november 2026",
+  "bestand": "2026-11-08-ochtend.mp3",
+  "gemaakt": "2026-11-08T06:40:59.223739+01:00",
+  "duur_sec": 673,
+  "bytes": 5383901,
+  "omschrijving": "Ochtendjournaal: Iran, Kyiv en Nieuw-Zeeland",
+  "onderwerpen": [
+   "VS beschieten vrachtschip bij Iran en nieuwe landblokkade",
+   "Russische aanvallen op Kyiv en onderhandelingen in Abu Dhabi",
+   "Nvidia-topman Huang en vermeende Chinese spionage",
+   "Nieuw-Zeelandse verkiezingen nek-aan-nek",
+   "Na de Amerikaanse midterms: Miller en Dana White",
+   "Bommeldingen en cyberaanvallen in Europa",
+   "Binance, Apple, Labubu, AI en management, hotelgroepen, Starlink-rivaal, Berkshire, AI-radio Liechtenstein, Spaans spoorfraudeonderzoek"
+  ],
+  "woorden": 1637,
+  "tts_tekens": 10555,
+  "claude_kosten_usd": 0.1291,
+  "feitencheck_aanpassingen": 1,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
