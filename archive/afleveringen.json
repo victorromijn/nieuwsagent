@@ -186,5 +186,39 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-09",
+  "editie": "avond",
+  "titel": "Avondjournaal maandag 9 november 2026",
+  "bestand": "2026-11-09-avond.mp3",
+  "gemaakt": "2026-11-09T15:25:02.355213+01:00",
+  "duur_sec": 724,
+  "bytes": 5794753,
+  "omschrijving": "Nvidia-topman, Oekraïne-overleg en Trumps migratiekoers",
+  "onderwerpen": [
+   "Nvidia-topman Jensen Huang en vermoedelijke Chinese spion",
+   "Vredesgesprekken Rusland-Oekraïne in Abu Dhabi, EU toch aanwezig",
+   "Trump noemt migratiebeleid te streng, Miller stafchef",
+   "EU klaagt IBM, Atos en Leonardo aan om grensregistratiesysteem",
+   "Kabinet wijst vijf extra woningbouwlocaties aan",
+   "Plan voor vijftig keer meer stroomopslag in 2040",
+   "AIA gaat Israëlische vuurwapens maken in Nederland",
+   "Broer van Orbán opgepakt",
+   "Google en AI-tools op scholen",
+   "Tesla stopt Cybertruck",
+   "Meta leeftijdscontroles Instagram en Vinted/eBay-verbod Engeland",
+   "Roaming Balkan, EU-batterijregels 2027, cyberaanval Topgeschenken"
+  ],
+  "woorden": 1815,
+  "tts_tekens": 11487,
+  "claude_kosten_usd": 0.1488,
+  "feitencheck_aanpassingen": 5,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
