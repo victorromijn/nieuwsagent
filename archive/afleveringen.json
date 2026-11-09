@@ -147,5 +147,44 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-09",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal maandag 9 november 2026",
+  "bestand": "2026-11-09-ochtend.mp3",
+  "gemaakt": "2026-11-09T06:40:57.059192+01:00",
+  "duur_sec": 736,
+  "bytes": 5890676,
+  "omschrijving": "Nvidia-onderzoek, Russische doden en klimaattop",
+  "onderwerpen": [
+   "Nvidia-onderzoek naar topman Jensen Huang en vermoedelijke Chinese spionne",
+   "Gehackte Russische data: bijna 400.000 Russische doden",
+   "Klimaattop COP31 in Turkije",
+   "Eisenkot krijgt eerste kans op Israëlische regering",
+   "Iran-diplomatie en Straat van Hormuz",
+   "Amerikaanse midterms-nasleep: onderzoeken en deportatiebeleid",
+   "Anthropic-deal voor energie datacenters",
+   "Wegenwacht-staking",
+   "ANC verliest bij lokale verkiezingen",
+   "Starbucks plant 7.500 banen in VK",
+   "EU-aanklacht tegen IBM",
+   "VK overweegt verbod Vinted en eBay voor onder-16",
+   "China verlengt opschorting handelsheffingen",
+   "Vroege GCSE's afgeschaft in Engeland",
+   "Europa zoekt alternatief voor Starlink"
+  ],
+  "woorden": 1777,
+  "tts_tekens": 11457,
+  "claude_kosten_usd": 0.1287,
+  "feitencheck_aanpassingen": 4,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "NU.nl (tech): geen berichten in de afgelopen 24 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 24 uur",
+   "Computable (tech): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
