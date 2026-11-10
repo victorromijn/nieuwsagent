@@ -254,5 +254,41 @@
   "feeds_met_problemen": [],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-10",
+  "editie": "avond",
+  "titel": "Avondjournaal dinsdag 10 november 2026",
+  "bestand": "2026-11-10-avond.mp3",
+  "gemaakt": "2026-11-10T14:48:02.251088+01:00",
+  "duur_sec": 701,
+  "bytes": 5609389,
+  "omschrijving": "Anthropic naar de beurs, gesprekken in Abu Dhabi",
+  "onderwerpen": [
+   "Anthropic beursgang met waardering tot 1,4 biljoen dollar",
+   "Oekraïne-gesprekken in Abu Dhabi",
+   "AFM waarschuwt voor cyberaanvallen",
+   "Kabinet wil Moerdijk behouden",
+   "Eerste Kamer stemt in met embryokweek",
+   "Nvidia en Jensen Huang aangeklaagd",
+   "Europa en Rusland rond Oekraïne-gesprekken",
+   "Chinees handelsoverschot boven 1000 miljard dollar",
+   "Californië verwerpt miljardairsbelasting",
+   "Olieprijs onder 90 dollar",
+   "Lagere gas- en energieprijzen",
+   "Australië AI-toezichthouder na OpenAI-hack",
+   "Vakbonden weg bij ASML",
+   "Booking.com hoger beroep kantoorplicht"
+  ],
+  "woorden": 1713,
+  "tts_tekens": 10823,
+  "claude_kosten_usd": 0.134,
+  "feitencheck_aanpassingen": 7,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
