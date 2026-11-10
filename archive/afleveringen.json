@@ -220,5 +220,39 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-10",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal dinsdag 10 november 2026",
+  "bestand": "2026-11-10-ochtend.mp3",
+  "gemaakt": "2026-11-10T01:28:44.673013+01:00",
+  "duur_sec": 661,
+  "bytes": 5290279,
+  "omschrijving": "Nvidia onder druk, Iran en cyberaanvallen",
+  "onderwerpen": [
+   "Nvidia-topman Huang en spionaffaire",
+   "Trump: Iranoorlog feitelijk voorbij",
+   "Frankrijk beschuldigt Iran van koelkasthack",
+   "Oekraïne-gesprekken in Abu Dhabi",
+   "Afzettingsstemming Hegseth",
+   "Frans minimumloon",
+   "Pensioenverhogingen 2027",
+   "Woningbouwlocaties",
+   "AIA en Israëlische wapens",
+   "Databricks Amsterdam",
+   "Anthropic gasturbines",
+   "Staalfabriek Turkije",
+   "Boeing banenschrapping",
+   "Datalek Topgeschenken",
+   "Datalek Amadeus"
+  ],
+  "woorden": 1591,
+  "tts_tekens": 10193,
+  "claude_kosten_usd": 0.1292,
+  "feitencheck_aanpassingen": 5,
+  "feeds_met_problemen": [],
+  "telegram": true,
+  "podcast": false
  }
 ]
