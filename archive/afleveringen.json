@@ -290,5 +290,42 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-11",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal woensdag 11 november 2026",
+  "bestand": "2026-11-11-ochtend.mp3",
+  "gemaakt": "2026-11-11T06:41:04.484717+01:00",
+  "duur_sec": 748,
+  "bytes": 5983883,
+  "omschrijving": "Oekraïne-gesprekken, Nvidia-affaire en AI-banen",
+  "onderwerpen": [
+   "Oekraïne-vredesgesprekken in Abu Dhabi zonder Europa",
+   "Spionageaffaire rond Nvidia-topman Jensen Huang",
+   "AI en banen van hoogopgeleide jongeren",
+   "Stijgende werkloosheid onder migranten en tweede generatie",
+   "Anthropic verhoogt beoogde beurswaarde bij beursgang",
+   "Afzettingspoging defensieminister Hegseth geblokkeerd",
+   "Amerikaanse militair opgepakt in VK voor spionage voor Rusland",
+   "Kabinet wil dorp Moerdijk behouden",
+   "Kettingbotsingen in mist in Bulgarije",
+   "Booking-ondernemingsraad tegen kantoorplicht",
+   "Datalek bij AllUnited en AFM-waarschuwing cyberaanvallen",
+   "Overlijden Heineken Nederland-directeur Maarten Schuurman",
+   "Meer buitenlandse studenten in Nederland",
+   "Spoorakkoord Nederland en Duitsland",
+   "Jonge mantelzorgers in Houten",
+   "Belastingplan en Pro/Volt-voorstel over familiebedrijven"
+  ],
+  "woorden": 1818,
+  "tts_tekens": 11676,
+  "claude_kosten_usd": 0.1885,
+  "feitencheck_aanpassingen": 3,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
