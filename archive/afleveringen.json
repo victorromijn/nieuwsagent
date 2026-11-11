@@ -327,5 +327,43 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-11",
+  "editie": "avond",
+  "titel": "Avondjournaal woensdag 11 november 2026",
+  "bestand": "2026-11-11-avond.mp3",
+  "gemaakt": "2026-11-11T13:59:31.794564+01:00",
+  "duur_sec": 705,
+  "bytes": 5637393,
+  "omschrijving": "Avondjournaal: Oekraïne, werkloosheid en Nvidia",
+  "onderwerpen": [
+   "Oekraïne-onderhandelingen in Abu Dhabi en gevangenenruil",
+   "Stijgende werkloosheid onder migranten",
+   "Nvidia-topman Huang en vermeende Chinese spion",
+   "Anthropic en beurswaardering AI-bedrijven",
+   "Nieuwe EU-wet tegen manipulatieve Big Tech-praktijken",
+   "ABN Amro winststijging en cao-conflict",
+   "Bommeldingen bij Europese scholen",
+   "Hegseth-afzettingspoging geblokkeerd",
+   "Oekraïense dronewagentjes en Indonesische huurling",
+   "Unilever-McCormick en Britse toezichthouder",
+   "Raad van State over Syrië",
+   "Rekenkamer over goudvoorraad",
+   "Belastingdienst en privacy",
+   "Ebola in Congo",
+   "CoreWeave en AI-aandelen"
+  ],
+  "woorden": 1697,
+  "tts_tekens": 10875,
+  "claude_kosten_usd": 0.116,
+  "feitencheck_aanpassingen": 4,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
