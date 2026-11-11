@@ -365,5 +365,38 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-12",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal donderdag 12 november 2026",
+  "bestand": "2026-11-12-ochtend.mp3",
+  "gemaakt": "2026-11-12T00:09:34.958180+01:00",
+  "duur_sec": 707,
+  "bytes": 5655368,
+  "omschrijving": "Kabinetscrisis, Nvidia-onderzoek en staking in Spanje",
+  "onderwerpen": [
+   "Belastingdeal D66 en CDA met Pro en Volt, VVD ontstemd",
+   "Nvidia-topman Huang onderzocht",
+   "Algemene staking in Spanje over woningprijzen",
+   "Klimaattop COP31 in Turkije",
+   "Oekraïne-gesprekken in Abu Dhabi en gevangenenruil",
+   "EU-plan knop tegen verslavende sociale media",
+   "Beveiligingslekken in Danfoss-koelsystemen",
+   "Oeso over ontslagbescherming",
+   "Werkloosheid onder migranten",
+   "ABN Amro winst",
+   "Raad van State over Syrië",
+   "Hegseth, bommeldingen scholen, Ebola"
+  ],
+  "woorden": 1720,
+  "tts_tekens": 10978,
+  "claude_kosten_usd": 0.153,
+  "feitencheck_aanpassingen": 6,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
