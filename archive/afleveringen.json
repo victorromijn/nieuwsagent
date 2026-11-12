@@ -398,5 +398,40 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-12",
+  "editie": "avond",
+  "titel": "Avondjournaal donderdag 12 november 2026",
+  "bestand": "2026-11-12-avond.mp3",
+  "gemaakt": "2026-11-12T15:01:30.534372+01:00",
+  "duur_sec": 879,
+  "bytes": 7036512,
+  "omschrijving": "Huang weg bij Nvidia, kabinet-Jetten wankelt",
+  "onderwerpen": [
+   "Nvidia-topman Jensen Huang stapt op na affaires",
+   "Belastingplan splijt kabinet-Jetten, VVD dreigt tegen te stemmen",
+   "Amerikaanse gezanten bij Poetin, Europa zoekt onderhandelaar voor Oekraïne",
+   "Iran: aanvallen op olietankers in Straat van Hormuz en Belgische/Franse aanwijzingen over cyberaanvallen",
+   "Britse economie groeit snelst in twee jaar door AI",
+   "Hypotheekrente stijgt, duurdere hypotheek voor bijna miljoen huishoudens",
+   "Cyberaanval op koelsystemen en Danfoss",
+   "Metro Bank te koop",
+   "Google en Meta: EU-hof en Britse toezichthouder",
+   "Starlink-beperkingen in Oekraïne",
+   "Blokkeerstatuut ICC in Europees Parlement",
+   "Datalek Vrienden van Amstel",
+   "AI-fraude bij verzekeraars en ontmantelde malwareservers"
+  ],
+  "woorden": 2168,
+  "tts_tekens": 13770,
+  "claude_kosten_usd": 0.2043,
+  "feitencheck_aanpassingen": 6,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
