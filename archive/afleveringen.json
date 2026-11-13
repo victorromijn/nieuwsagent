@@ -468,5 +468,41 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-13",
+  "editie": "avond",
+  "titel": "Avondjournaal vrijdag 13 november 2026",
+  "bestand": "2026-11-13-avond.mp3",
+  "gemaakt": "2026-11-13T17:40:55.448640+01:00",
+  "duur_sec": 730,
+  "bytes": 5837385,
+  "omschrijving": "Microsoft-storing, Nvidia-schandaal en Europa aan tafel",
+  "onderwerpen": [
+   "Wereldwijde Microsoft-storing",
+   "Nvidia, Jensen Huang, Megaspeed en Lutnick",
+   "Europa en de vredesgesprekken over Oekraïne",
+   "Iran en de radar in Bahrein",
+   "Olie-overschot en dalende brandstofprijzen",
+   "Democratische winst bij Amerikaanse tussentijdse verkiezingen",
+   "ChatGPT Wallet en AI-agents",
+   "Huang moet voor de Senaat getuigen",
+   "Noord-Korea en crypto-diefstal",
+   "Jaguar Land Rover verlies",
+   "Tinder-boete",
+   "Duitse inlichtingendiensten",
+   "Zorgpremies 2027",
+   "Pochettino naar Manchester United"
+  ],
+  "woorden": 1731,
+  "tts_tekens": 11177,
+  "claude_kosten_usd": 0.1517,
+  "feitencheck_aanpassingen": 3,
+  "feeds_met_problemen": [
+   "NOS (economie): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
