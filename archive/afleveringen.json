@@ -433,5 +433,40 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-13",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal vrijdag 13 november 2026",
+  "bestand": "2026-11-13-ochtend.mp3",
+  "gemaakt": "2026-11-13T06:41:03.300000+01:00",
+  "duur_sec": 726,
+  "bytes": 5811474,
+  "omschrijving": "Kabinetscrisis, Microsoft-storing en Nvidia-topman weg",
+  "onderwerpen": [
+   "Kabinet-Jetten in crisis na belastingplan",
+   "Wereldwijde Microsoft-storing Outlook en Teams",
+   "Nvidia-topman Huang stapt op, Congres wil hem horen",
+   "FBI: Noord-Korea steelt crypto met deepfakes",
+   "Zorgpremies 2027 stijgen flink",
+   "Hypotheekrente en afkoelende woningmarkt",
+   "Iran meldt aanval op Amerikaanse radar in Bahrein",
+   "Europa aan tafel bij Oekraïne-vredesgesprekken",
+   "Britse economie groeit 0,7 procent",
+   "Finland en Noorwegen weren Russische sporters",
+   "Bommeldingen Italiaanse scholen en Eurostar",
+   "Cyberaanvallen koelsystemen en Iran, België tegenstrijdig",
+   "Politie haalt servers offline, ransomware",
+   "Metro Bank te koop"
+  ],
+  "woorden": 1725,
+  "tts_tekens": 11172,
+  "claude_kosten_usd": 0.157,
+  "feitencheck_aanpassingen": 7,
+  "feeds_met_problemen": [
+   "NU.nl (wetenschap): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
