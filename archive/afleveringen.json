@@ -504,5 +504,40 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-14",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal zaterdag 14 november 2026",
+  "bestand": "2026-11-14-ochtend.mp3",
+  "gemaakt": "2026-11-14T06:40:47.912340+01:00",
+  "duur_sec": 761,
+  "bytes": 6087119,
+  "omschrijving": "Ochtendjournaal: Trump, Xi en Poetin, kabinetscrisis",
+  "onderwerpen": [
+   "Drielandengesprek Trump, Xi en Poetin in China",
+   "Kabinet-Jetten en coalitiecrisis",
+   "Landelijke vliegstop in de VS",
+   "Europa aan tafel bij Oekraïne-vredesgesprekken",
+   "Nvidia-topman Huang stapt op, Senaat en Lutnick",
+   "Microsoft-storing treft Nederland",
+   "Olieoverschot en dalende benzineprijzen",
+   "Anthropic-beursgang",
+   "ChatGPT Wallet en Amazon tegen AI-shoppingagents",
+   "Zorgpremies 2027",
+   "Tinder-boete",
+   "Duitse inlichtingendiensten",
+   "Italiaanse bommeldingen op scholen",
+   "Noord-Korea crypto-diefstal"
+  ],
+  "woorden": 1818,
+  "tts_tekens": 11759,
+  "claude_kosten_usd": 0.1498,
+  "feitencheck_aanpassingen": 1,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
