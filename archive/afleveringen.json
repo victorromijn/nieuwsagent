@@ -539,5 +539,40 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-18",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal woensdag 18 november 2026",
+  "bestand": "2026-11-18-ochtend.mp3",
+  "gemaakt": "2026-11-18T09:20:05.939773+01:00",
+  "duur_sec": 866,
+  "bytes": 6927008,
+  "omschrijving": "Ochtendjournaal: klimaattop, batterijen, Nvidia en Krimbrug",
+  "onderwerpen": [
+   "Klimaattop in Antalya en alternatieve top van activisten",
+   "Run op thuisbatterijen na einde salderen en stroomverbruik datacenters",
+   "Nvidia-omzet verdubbeld, ophef rond Huang en chipexport naar China",
+   "Beursgang Anthropic donderdag",
+   "Xi en Poetin in Shenzhen, Trump volgt, Europa buitenspel",
+   "Inflatie Verenigd Koninkrijk 3,6 procent door brandstofprijzen",
+   "Krimbrug verwoest met raketten van Nederlands bedrijf Destinus",
+   "Waymo van snelwegen",
+   "Tech-storingen in de VS en Rubio",
+   "Bregje de Best CFO JPMorgan",
+   "Temu en Europese boete",
+   "Deutsche Bank-lek",
+   "AI-fraude bij Zuid-Koreaans examen"
+  ],
+  "woorden": 2139,
+  "tts_tekens": 13657,
+  "claude_kosten_usd": 0.1492,
+  "feitencheck_aanpassingen": 3,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 24 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
