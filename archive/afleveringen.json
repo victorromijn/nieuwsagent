@@ -609,5 +609,40 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-19",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal donderdag 19 november 2026",
+  "bestand": "2026-11-19-ochtend.mp3",
+  "gemaakt": "2026-11-19T00:11:07.505311+01:00",
+  "duur_sec": 758,
+  "bytes": 6066013,
+  "omschrijving": "Ochtendjournaal: Iran, Gaza en de beursgang Anthropic",
+  "onderwerpen": [
+   "Iraanse aanvallen op Koeweit en Bahrein",
+   "Israëlische grondoperatie in Gaza",
+   "Beursgang Anthropic",
+   "EU-lening van 45 miljard euro voor Oekraïne",
+   "Hack van supercomputer Fugaku",
+   "Storingen bij Amerikaanse techsystemen",
+   "Waymo stopt op snelwegen",
+   "Datacenters en stroomverbruik",
+   "AI en de arbeidsmarkt",
+   "IMF-waarschuwing over AI",
+   "Britse inflatie",
+   "ICJ-uitspraak Myanmar",
+   "Defensiesector en Oekraïnegesprekken in Berlijn"
+  ],
+  "woorden": 1859,
+  "tts_tekens": 11957,
+  "claude_kosten_usd": 0.1432,
+  "feitencheck_aanpassingen": 2,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
