@@ -574,5 +574,40 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-18",
+  "editie": "avond",
+  "titel": "Avondjournaal woensdag 18 november 2026",
+  "bestand": "2026-11-18-avond.mp3",
+  "gemaakt": "2026-11-18T15:36:42.578978+01:00",
+  "duur_sec": 785,
+  "bytes": 6282513,
+  "omschrijving": "Iran escaleert, APEC-top en kabinetscrisis",
+  "onderwerpen": [
+   "Iran valt Amerikaanse doelwitten in Golfregio aan",
+   "APEC-top Shenzhen met Xi, Trump en Poetin",
+   "Minderheidskabinet Jetten gaat door na crisis",
+   "GTA VI verschijnt",
+   "Destinus en de aanval op de Krimbrug",
+   "Datacenters verbruiken 5 procent van de stroom",
+   "Waymo van Amerikaanse snelwegen",
+   "Hack Japanse supercomputer Fugaku",
+   "Britse inflatie 3,6 procent",
+   "EU-lening Oekraïne 45 miljard euro",
+   "Democraten winnen Senaatszetel Alaska",
+   "Helmplicht kinderen op elektrische fietsen"
+  ],
+  "woorden": 1909,
+  "tts_tekens": 11941,
+  "claude_kosten_usd": 0.1753,
+  "feitencheck_aanpassingen": 4,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur",
+   "New York Times (tech): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
