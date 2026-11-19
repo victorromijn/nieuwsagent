@@ -644,5 +644,40 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-19",
+  "editie": "avond",
+  "titel": "Avondjournaal donderdag 19 november 2026",
+  "bestand": "2026-11-19-avond.mp3",
+  "gemaakt": "2026-11-19T15:44:21.741008+01:00",
+  "duur_sec": 737,
+  "bytes": 5894648,
+  "omschrijving": "Avondjournaal: Top in Shenzhen en Anthropic naar de beurs",
+  "onderwerpen": [
+   "Top Trump, Xi en Poetin in Shenzhen",
+   "Beursgang Anthropic",
+   "Genocide-uitspraak over Myanmar",
+   "Nederlandse ambassade in Kyiv en Destinus",
+   "GTA VI",
+   "IEA-rapport over energie en datacenters",
+   "Krimbrug en Russische dreiging",
+   "Russische schaatsers geen visum",
+   "AI-camerabrillen",
+   "Datalek deelfietsplatform",
+   "Aanhoudingen na Revolut-datadiefstal",
+   "Uitstel EU-methaanregels, Walmart en Knaap Bikes",
+   "Wiskundedocent en kooigevechten"
+  ],
+  "woorden": 1768,
+  "tts_tekens": 11064,
+  "claude_kosten_usd": 0.1517,
+  "feitencheck_aanpassingen": 5,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
