@@ -679,5 +679,35 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-20",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal vrijdag 20 november 2026",
+  "bestand": "2026-11-20-ochtend.mp3",
+  "gemaakt": "2026-11-20T00:24:19.936741+01:00",
+  "duur_sec": 718,
+  "bytes": 5748362,
+  "omschrijving": "Anthropic naar de beurs, genocide-oordeel Myanmar",
+  "onderwerpen": [
+   "Beursgang Anthropic",
+   "Genocide-oordeel Myanmar",
+   "Trump, Xi en Poetin in Shenzhen",
+   "Nederlandse ambassade in Kyiv",
+   "Destinus in Oekraïne",
+   "EU-VK top",
+   "IEA en energiemarkt",
+   "Walmart",
+   "Meta Muse Charm",
+   "Cyberaanvallen",
+   "AI-camerabrillen en GTA VI"
+  ],
+  "woorden": 1706,
+  "tts_tekens": 11191,
+  "claude_kosten_usd": 0.1423,
+  "feitencheck_aanpassingen": 5,
+  "feeds_met_problemen": [],
+  "telegram": true,
+  "podcast": false
  }
 ]
