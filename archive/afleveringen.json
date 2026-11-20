@@ -709,5 +709,41 @@
   "feeds_met_problemen": [],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-20",
+  "editie": "avond",
+  "titel": "Avondjournaal vrijdag 20 november 2026",
+  "bestand": "2026-11-20-avond.mp3",
+  "gemaakt": "2026-11-20T15:25:01.328857+01:00",
+  "duur_sec": 838,
+  "bytes": 6702561,
+  "omschrijving": "Aanval op Kyiv, raket in Polen, AI-uitverkoop",
+  "onderwerpen": [
+   "Russische massale aanval op Kyiv en kruisraket in Polen",
+   "Jongerenprotest tegen dienstplicht en militarisering",
+   "Anthropic-beursgang en AI-uitverkoop op de beurzen",
+   "Strafzaak Tata Steel, OM hackte bedrijfssystemen",
+   "EU-VK Brexit-reset deal",
+   "Klimaattop Antalya, afbouw fossiele brandstoffen",
+   "Estland sluit grens met Rusland en diplomatie rond de oorlog",
+   "Cyberadviseur Trump vertrekt",
+   "Britse operatie tegen aanvallen op koelsystemen",
+   "Lufthansa schrapt duizend banen",
+   "Britse detailhandel stijgt door hamsteren",
+   "Amerikaanse Senaat versnelt vergunningen",
+   "Wethouder Van den Berg wordt burgemeester Reimerswaal"
+  ],
+  "woorden": 2018,
+  "tts_tekens": 13085,
+  "claude_kosten_usd": 0.1763,
+  "feitencheck_aanpassingen": 4,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (tech): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
