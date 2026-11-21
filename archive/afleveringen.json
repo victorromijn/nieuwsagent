@@ -745,5 +745,41 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-21",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal zaterdag 21 november 2026",
+  "bestand": "2026-11-21-ochtend.mp3",
+  "gemaakt": "2026-11-21T06:41:07.101104+01:00",
+  "duur_sec": 668,
+  "bytes": 5345033,
+  "omschrijving": "Anthropic onderuit, Britten en EU naderen elkaar",
+  "onderwerpen": [
+   "Anthropic daalt na recordbeursgang",
+   "Russische kruisraket in Polen en dreigement aan Nederlandse diplomaten",
+   "Denemarken zet Russische attaché uit na aanslagplan",
+   "UK en EU sluiten deal over Brexit-barrières",
+   "GTA VI recordomzet",
+   "Buma en het kabinet-Jetten",
+   "Trump dreigt met boetes voor datacenters buiten de VS",
+   "Bayer schikking Roundup",
+   "Riemann-hypothese en AI",
+   "Lufthansa schrapt banen",
+   "Wall Street correctie",
+   "Nvidia onderzoek SEC",
+   "Estland sluit grens",
+   "Wethouder Van den Berg naar Reimerswaal"
+  ],
+  "woorden": 1617,
+  "tts_tekens": 10457,
+  "claude_kosten_usd": 0.1367,
+  "feitencheck_aanpassingen": 4,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "NU.nl (tech): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
