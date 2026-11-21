@@ -781,5 +781,42 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-21",
+  "editie": "avond",
+  "titel": "Avondjournaal zaterdag 21 november 2026",
+  "bestand": "2026-11-21-avond.mp3",
+  "gemaakt": "2026-11-21T14:44:55.790668+01:00",
+  "duur_sec": 608,
+  "bytes": 4865631,
+  "omschrijving": "Avondjournaal: EU-begroting, Nvidia en Riemann",
+  "onderwerpen": [
+   "EU en Indonesië sluiten handelsakkoord",
+   "EU-begroting 2028-2034: Costa snijdt en wil techbelasting",
+   "Nvidia-chips en de Chinese krijgsmacht",
+   "Anthropic-medewerker claimt bewijs Riemann-hypothese met Claude",
+   "Internationaal Strafhof en Amerikaanse druk",
+   "Klimaattop COP31 in Antalya loopt uit",
+   "Vrachtschip getroffen door drones in Finse Golf",
+   "Wall Street en bitcoin",
+   "Hongarije en Oekraïne, Bayer Roundup",
+   "Meta klimaatdoelen, Franse wapenwet, autonome wapens"
+  ],
+  "woorden": 1479,
+  "tts_tekens": 9487,
+  "claude_kosten_usd": 0.1011,
+  "feitencheck_aanpassingen": 1,
+  "feeds_met_problemen": [
+   "NOS (politiek): geen berichten in de afgelopen 12 uur",
+   "NOS (economie): geen berichten in de afgelopen 12 uur",
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "BBC (tech): geen berichten in de afgelopen 12 uur",
+   "Emerce (tech): geen berichten in de afgelopen 12 uur",
+   "Computable (tech): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
