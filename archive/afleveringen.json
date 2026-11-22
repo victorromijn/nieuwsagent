@@ -818,5 +818,45 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-22",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal zondag 22 november 2026",
+  "bestand": "2026-11-22-ochtend.mp3",
+  "gemaakt": "2026-11-22T06:40:49.928122+01:00",
+  "duur_sec": 633,
+  "bytes": 5063117,
+  "omschrijving": "Top in Shenzhen, drones boven de Finse Golf",
+  "onderwerpen": [
+   "Top Xi, Trump en Poetin in Shenzhen",
+   "Droneaanval op Russisch vrachtschip in Finse Golf",
+   "Riemann-hypothese bewezen met AI-model Claude",
+   "Klimaattop Antalya in verlenging",
+   "Zuid-Koreaanse minister af na AI-fraudeschandaal",
+   "Leiden stopt samenwerking met Chinese universiteit",
+   "Brand snoepfabriek Indonesië",
+   "Verstappen wint in Las Vegas",
+   "Arrestatie El Chapo Isidro",
+   "Titanic-veiling",
+   "FBI-hack criminaliteitsdatabase",
+   "Denemarken zet Russische attaché uit",
+   "Bayer-schikking Roundup en GTA VI-omzet"
+  ],
+  "woorden": 1477,
+  "tts_tekens": 9549,
+  "claude_kosten_usd": 0.1191,
+  "feitencheck_aanpassingen": 5,
+  "feeds_met_problemen": [
+   "NOS (politiek): geen berichten in de afgelopen 24 uur",
+   "NOS (tech): geen berichten in de afgelopen 24 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 24 uur",
+   "BBC (tech): geen berichten in de afgelopen 24 uur",
+   "Emerce (tech): geen berichten in de afgelopen 24 uur",
+   "Computable (tech): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
