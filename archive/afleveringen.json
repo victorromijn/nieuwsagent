@@ -858,5 +858,50 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-22",
+  "editie": "avond",
+  "titel": "Avondjournaal zondag 22 november 2026",
+  "bestand": "2026-11-22-avond.mp3",
+  "gemaakt": "2026-11-22T14:38:58.348283+01:00",
+  "duur_sec": 636,
+  "bytes": 5089238,
+  "omschrijving": "Klimaattop mislukt, Burnham en de EU",
+  "onderwerpen": [
+   "Klimaattop Antalya zonder slotakkoord",
+   "Zuid-Koreaanse onderwijsminister treedt af na AI-fraude",
+   "Russische droneaanval bij Kyiv",
+   "Burnham, de EU en kritiek van Theresa May",
+   "Brand in snoepfabriek Indonesië",
+   "Russisch vrachtschip in brand in de Finse Golf",
+   "Vera Dijkmans terug uit VS-detentie",
+   "Waterschildpad als invasieve exoot",
+   "Belgische begrotingscrisis",
+   "Universiteit Leiden stopt Chinese samenwerking",
+   "Bankfraude met AI",
+   "Chinese beurzen versoepelen margin-eisen",
+   "Anthropic IPO",
+   "Hack bij FBI",
+   "Verstappen wint in Las Vegas"
+  ],
+  "woorden": 1539,
+  "tts_tekens": 9749,
+  "claude_kosten_usd": 0.1333,
+  "feitencheck_aanpassingen": 3,
+  "feeds_met_problemen": [
+   "NOS (politiek): geen berichten in de afgelopen 12 uur",
+   "NOS (economie): geen berichten in de afgelopen 12 uur",
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (tech): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur",
+   "BBC (tech): geen berichten in de afgelopen 12 uur",
+   "Emerce (tech): geen berichten in de afgelopen 12 uur",
+   "Computable (tech): geen berichten in de afgelopen 12 uur",
+   "TechCrunch (tech): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
