@@ -941,5 +941,41 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-23",
+  "editie": "avond",
+  "titel": "Avondjournaal maandag 23 november 2026",
+  "bestand": "2026-11-23-avond.mp3",
+  "gemaakt": "2026-11-23T17:48:12.201817+01:00",
+  "duur_sec": 699,
+  "bytes": 5591625,
+  "omschrijving": "Nvidia, CrowdStrike en mislukte klimaattop",
+  "onderwerpen": [
+   "Jensen Huang terug als Nvidia-topman",
+   "CrowdStrike neemt Zscaler over",
+   "Oekraïense aanval op Russisch schip bij Libië",
+   "COP31 zonder akkoord",
+   "Wolfvrije zones en afschot",
+   "Bommeldingen bij scholen in Duitsland en Denemarken",
+   "Russische sporters en antitrustonderzoek CCEP",
+   "Files rond Utrecht",
+   "Gezichtsherkenning Hongkong",
+   "ACM en algoritmes bij benzinepompen",
+   "Begrotingsimpasse België",
+   "Hack bij leverancier Next",
+   "Lego-fabriek in Portugal",
+   "Terugkeer Big Bazar"
+  ],
+  "woorden": 1623,
+  "tts_tekens": 10620,
+  "claude_kosten_usd": 0.1324,
+  "feitencheck_aanpassingen": 2,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
