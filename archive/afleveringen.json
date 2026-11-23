@@ -903,5 +903,43 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-23",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal maandag 23 november 2026",
+  "bestand": "2026-11-23-ochtend.mp3",
+  "gemaakt": "2026-11-23T06:40:51.822328+01:00",
+  "duur_sec": 662,
+  "bytes": 5299683,
+  "omschrijving": "Ochtendjournaal: gasverbruik, Democraten en AI-onrust",
+  "onderwerpen": [
+   "Gasverbruik daalt, stroomverbruik stijgt voor verwarming",
+   "Democraten grootste meerderheid in Huis sinds 1992",
+   "Alice Huang en Nvidia: contact met Chinese spionagedienst",
+   "Nieuwe aanvallen op tankers bij Straat van Hormuz",
+   "Aziatische beurzen en zorgen over AI-zeepbel",
+   "Russische aanvallen op burgerdoelen bij Kyiv",
+   "Koude week met nachtvorst",
+   "Staking streekvervoer",
+   "Concert Manchester geëvacueerd",
+   "Koopwoningen 2,9 procent duurder",
+   "Zuid-Koreaanse onderwijsminister treedt af na AI-fraude",
+   "Bankfraudeurs gebruiken AI en Black Friday pakketpiek"
+  ],
+  "woorden": 1610,
+  "tts_tekens": 10152,
+  "claude_kosten_usd": 0.1281,
+  "feitencheck_aanpassingen": 7,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 24 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "NU.nl (tech): geen berichten in de afgelopen 24 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 24 uur",
+   "Reuters (buitenland): HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Areuters.com+when%3A24h&hl=en-US&gl=US&ceid=US:en",
+   "Computable (tech): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
