@@ -977,5 +977,41 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-24",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal dinsdag 24 november 2026",
+  "bestand": "2026-11-24-ochtend.mp3",
+  "gemaakt": "2026-11-24T04:04:57.499833+01:00",
+  "duur_sec": 619,
+  "bytes": 4950060,
+  "omschrijving": "Nvidia, Libië en klimaattop zonder akkoord",
+  "onderwerpen": [
+   "Terugkeer Jensen Huang bij Nvidia",
+   "Oekraïense aanval op Russisch schip in Libië",
+   "Nieuw EU-sanctiepakket tegen Rusland",
+   "Russische kernwapensatelliet en NAVO-radarvliegtuig naar Polen",
+   "AI-nieuws: OpenAI, banken en Anthropic",
+   "CrowdStrike neemt Zscaler over",
+   "COP31 zonder akkoord",
+   "Russische ambassade en Destinus",
+   "Droneaanval Colombia en bommeldingen scholen",
+   "Olievervuiling Hormuz, Hongkong en Gaza",
+   "Belgische begrotingscrisis"
+  ],
+  "woorden": 1494,
+  "tts_tekens": 9668,
+  "claude_kosten_usd": 0.1268,
+  "feitencheck_aanpassingen": 5,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 24 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
