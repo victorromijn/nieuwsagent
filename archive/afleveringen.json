@@ -1013,5 +1013,48 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-24",
+  "editie": "avond",
+  "titel": "Avondjournaal dinsdag 24 november 2026",
+  "bestand": "2026-11-24-avond.mp3",
+  "gemaakt": "2026-11-24T17:30:55.557157+01:00",
+  "duur_sec": 628,
+  "bytes": 5022783,
+  "omschrijving": "Avondjournaal: Anthropic zakt, DNB waarschuwt",
+  "onderwerpen": [
+   "Nvidia: terugkeer Huang en vragen in het Congres",
+   "Anthropic zakt onder introductieprijs na recordbeursgang",
+   "DNB waarschuwt voor cyberaanvallen en AI-risico's",
+   "Oekraïne bevestigt aanval op Russisch schip in Finse Golf",
+   "Hof: bindende klimaatdoelen blijven verplicht",
+   "Nieuwe Amerikaanse importheffingen op komst",
+   "CrowdStrike neemt Zscaler over",
+   "NVWA-waarschuwing libidoverhogende middelen",
+   "Vogelgriep in de VS",
+   "Microsoft Code Red na storing",
+   "EU-limieten op hybride voertuigen uit China",
+   "BYD en Ineos-fabriek in Frankrijk",
+   "Sanofi-overname van 41 miljard dollar",
+   "Afrika Cup toegekend aan Senegal",
+   "Volkswagen wil lonen bevriezen"
+  ],
+  "woorden": 1508,
+  "tts_tekens": 9751,
+  "claude_kosten_usd": 0.1065,
+  "feitencheck_aanpassingen": 5,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur",
+   "AP (buitenland): HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aapnews.com+when%3A12h&hl=en-US&gl=US&ceid=US:en",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss",
+   "West-Zeeuws-Vlaanderen (regionaal): HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Oostburg+OR+Sluis+OR+Cadzand+OR+Breskens+OR+%22Zeeuws-Vlaanderen%22+when%3A12h&hl=nl&gl=NL&ceid=NL:nl"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
