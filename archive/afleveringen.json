@@ -1056,5 +1056,49 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-25",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal woensdag 25 november 2026",
+  "bestand": "2026-11-25-ochtend.mp3",
+  "gemaakt": "2026-11-25T02:08:19.322133+01:00",
+  "duur_sec": 674,
+  "bytes": 5390590,
+  "omschrijving": "Nvidia-baas terug, Huawei schuldig, Anthropic onder water",
+  "onderwerpen": [
+   "Nvidia-topman Huang keert terug, excuses en rol van Trump",
+   "Huawei schuldig aan diefstal bedrijfsgeheimen en bankfraude",
+   "Oekraïne zegt Russisch marineschip te hebben vernietigd bij Libië",
+   "Democraten winnen Huis, uitspraak Europees Hof over pushbacks",
+   "Nieuwe Amerikaanse importheffingen en EU-beperking hybrides",
+   "Anthropic-aandeel onder introductieprijs",
+   "DNB waarschuwt voor cyberaanvallen en AI-risico's",
+   "Brand Tata Steel",
+   "Shein schikking FTC",
+   "Venezuela schuldenlast",
+   "Sanofi neemt Insmed over",
+   "AI-aandelen onder druk",
+   "Volkswagen loononderhandelingen",
+   "Dell en HPE",
+   "Microsoft Code Red",
+   "Cyberaanval CIA en ODNI",
+   "Afrika Cup Senegal",
+   "NVWA-waarschuwing",
+   "Vogelgriep VS",
+   "Treinkaartjes niet duurder"
+  ],
+  "woorden": 1604,
+  "tts_tekens": 10421,
+  "claude_kosten_usd": 0.1283,
+  "feitencheck_aanpassingen": 4,
+  "feeds_met_problemen": [
+   "NU.nl (wetenschap): geen berichten in de afgelopen 24 uur",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
