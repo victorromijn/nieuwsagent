@@ -1100,5 +1100,45 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-25",
+  "editie": "avond",
+  "titel": "Avondjournaal woensdag 25 november 2026",
+  "bestand": "2026-11-25-avond.mp3",
+  "gemaakt": "2026-11-25T17:11:03.091206+01:00",
+  "duur_sec": 870,
+  "bytes": 6962324,
+  "omschrijving": "Avondjournaal: tarieven, AI-beurs en Huawei",
+  "onderwerpen": [
+   "Nieuwe Amerikaanse importheffingen op China, EU en andere handelspartners",
+   "AI-aandelen en techbeurzen onder zware druk",
+   "Huawei schuldig aan diefstal van bedrijfsgeheimen en bankfraude",
+   "Tidal verbiedt en verwijdert AI-muziek",
+   "DIVD gehackt door autonome AI-agents",
+   "Oekraïense aanval op Russische luchtmachtbasis en Russische verliezen",
+   "Nederlandse banken werken samen tegen cyberaanvallen",
+   "Lichaam in vrieskist Utrecht",
+   "Pharming pauzeert productie Ruconest",
+   "Gasunie wil strategische gasreserve",
+   "Energietarieven Verenigd Koninkrijk stijgen met 26 procent",
+   "Eurostar schrapt treinen door staking",
+   "EU-fonds van 50 miljard euro voor kwantumtechnologie",
+   "Australische wet tegen schadelijke online content",
+   "Schiphol verlaagt tarieven"
+  ],
+  "woorden": 2065,
+  "tts_tekens": 13558,
+  "claude_kosten_usd": 0.1717,
+  "feitencheck_aanpassingen": 6,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss",
+   "Financial Times (economie): HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aft.com+when%3A12h&hl=en-US&gl=US&ceid=US:en"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
