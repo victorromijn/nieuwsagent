@@ -1175,5 +1175,47 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-26",
+  "editie": "avond",
+  "titel": "Avondjournaal donderdag 26 november 2026",
+  "bestand": "2026-11-26-avond.mp3",
+  "gemaakt": "2026-11-26T16:50:59.526636+01:00",
+  "duur_sec": 724,
+  "bytes": 5791203,
+  "omschrijving": "Avondjournaal: ASML, ECB en EU-top",
+  "onderwerpen": [
+   "Dodelijke steekpartij Houten en rouw in de wijk",
+   "Kabinet verzet zich tegen Amerikaanse Match Act voor ASML",
+   "Hernández de Cos nieuwe ECB-president, Knot grijpt naast post",
+   "EU-top over meerjarenbegroting en steun aan Oekraïne",
+   "Nieuwe Amerikaanse tarieven en reacties",
+   "AI-gebruik door bedrijven verdubbeld",
+   "Musk datacenters in de ruimte en Meta-camerabril voor de rechter",
+   "Nyrstar sluit zinksmelterij Budel",
+   "1Password gehackt",
+   "Altria onderzoekt overname Imperial Brands",
+   "Nvidia stopt serverlevering naar Zuidoost-Azië",
+   "DNA-doorbraken in zedenzaken",
+   "Italiaanse werknemers gedood in Koeweit",
+   "Britse netto-migratie laagste sinds 1997"
+  ],
+  "woorden": 1761,
+  "tts_tekens": 11136,
+  "claude_kosten_usd": 0.138,
+  "feitencheck_aanpassingen": 6,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur",
+   "RTL Nieuws (algemeen): HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Artl.nl%2Fnieuws+when%3A12h&hl=nl&gl=NL&ceid=NL:nl",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss",
+   "Tweakers (tech): HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Atweakers.net+when%3A12h&hl=nl&gl=NL&ceid=NL:nl",
+   "TechCrunch (tech): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
