@@ -1140,5 +1140,40 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-26",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal donderdag 26 november 2026",
+  "bestand": "2026-11-26-ochtend.mp3",
+  "gemaakt": "2026-11-26T01:43:28.252277+01:00",
+  "duur_sec": 642,
+  "bytes": 5140025,
+  "omschrijving": "Ochtendjournaal: steekpartij Houten, nieuwe importheffingen",
+  "onderwerpen": [
+   "Dodelijke steekpartij Houten, verdachte is ex-partner",
+   "Nieuwe Amerikaanse importheffingen op EU en China",
+   "Huawei schuldig in VS, S&P over Nvidia",
+   "Britse energierekening stijgt 26 procent, EasyJet-winst keldert",
+   "Oekraïense aanval op Russische luchtmachtbasis",
+   "Spaanse verkiezingen, terugkeer Puigdemont, Franse presidentsrace",
+   "EU-fonds van 50 miljard voor kwantumtechnologie",
+   "Tidal verwijdert AI-muziek, boete geurbedrijven",
+   "Banken en cyberaanvallen, DIVD gehackt",
+   "Gasunie strategische gasreserve",
+   "Pharming stopt productie Ruconest"
+  ],
+  "woorden": 1521,
+  "tts_tekens": 9901,
+  "claude_kosten_usd": 0.1143,
+  "feitencheck_aanpassingen": 3,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
