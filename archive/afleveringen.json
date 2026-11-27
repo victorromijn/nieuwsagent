@@ -1217,5 +1217,44 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-27",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal vrijdag 27 november 2026",
+  "bestand": "2026-11-27-ochtend.mp3",
+  "gemaakt": "2026-11-27T01:51:20.645842+01:00",
+  "duur_sec": 668,
+  "bytes": 5347957,
+  "omschrijving": "EU-begroting loopt vast, drones treffen Koeweit",
+  "onderwerpen": [
+   "EU-top over meerjarenbegroting zonder akkoord",
+   "Droneaanval op Koeweit doodt twee Italiaanse Rheinmetall-technici",
+   "Kabinet tegen Amerikaanse Match Act en ASML",
+   "Nvidia stopt serverlevering naar Zuidoost-Azië",
+   "Hernández de Cos nieuwe ECB-president",
+   "SAP overweegt 10.000 banen te schrappen",
+   "SpaceX Starmind datacenters in de ruimte",
+   "AI-gebruik Nederlandse bedrijven 41 procent",
+   "1Password gehackt",
+   "Altria en Imperial Brands",
+   "Nyrstar Budel sluit",
+   "Britse nettomigratie laagste sinds 1997",
+   "Zzp-arbeidsongeschiktheidsverzekering uitgesteld",
+   "Israël coalitie Eisenkot en Golan",
+   "VVD kritiek op Yesilgöz"
+  ],
+  "woorden": 1576,
+  "tts_tekens": 10042,
+  "claude_kosten_usd": 0.1211,
+  "feitencheck_aanpassingen": 2,
+  "feeds_met_problemen": [
+   "NOS (opmerkelijk): geen berichten in de afgelopen 24 uur",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
