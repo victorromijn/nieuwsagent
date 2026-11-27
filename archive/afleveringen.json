@@ -1256,5 +1256,46 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-27",
+  "editie": "avond",
+  "titel": "Avondjournaal vrijdag 27 november 2026",
+  "bestand": "2026-11-27-avond.mp3",
+  "gemaakt": "2026-11-27T16:39:37.691885+01:00",
+  "duur_sec": 639,
+  "bytes": 5109092,
+  "omschrijving": "Avondjournaal: chipstrijd, hack en sabotage",
+  "onderwerpen": [
+   "Nvidia-topman, vermeende Chinese spion en de strijd om chips",
+   "Kabinet tegen Amerikaanse MATCH Act, ASML en G20",
+   "Hack bij Cloud One van de Amerikaanse luchtmacht",
+   "Russische sabotage in Europa neemt toe",
+   "Zelensky bekritiseert Trump-Poetin vriendschap",
+   "SAP overweegt banenschrap door AI en Black Friday",
+   "Russische dreiging tegen Destinus",
+   "Cyberincident bij Brits ministerie van Werk en Pensioenen",
+   "Pools leger en Palantir",
+   "Japan Tobacco en Imperial Brands",
+   "Tesla en EMAG",
+   "Vitens verhoogt tarieven",
+   "AFM onderzoekt overwaardeproducten",
+   "Stellantis legt fabrieken stil"
+  ],
+  "woorden": 1544,
+  "tts_tekens": 9929,
+  "claude_kosten_usd": 0.1123,
+  "feitencheck_aanpassingen": 4,
+  "feeds_met_problemen": [
+   "NU.nl (tech): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur",
+   "BBC (tech): geen berichten in de afgelopen 12 uur",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss",
+   "TechCrunch (tech): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
