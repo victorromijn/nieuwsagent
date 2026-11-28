@@ -1337,5 +1337,46 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-28",
+  "editie": "avond",
+  "titel": "Avondjournaal zaterdag 28 november 2026",
+  "bestand": "2026-11-28-avond.mp3",
+  "gemaakt": "2026-11-28T15:35:01.770063+01:00",
+  "duur_sec": 659,
+  "bytes": 5271052,
+  "omschrijving": "Avondjournaal: VVD-congres, bankfaillissement en Falklands",
+  "onderwerpen": [
+   "VVD-congres en positie Yesilgöz",
+   "Faillissement United Fidelity Bank",
+   "Puig neemt Parfums de Marly over",
+   "OpenAI tegenzaak tegen Apple",
+   "Falklands: olieboringen mogen doorgaan",
+   "Russische claim over Oekraïense drones",
+   "Black Friday-omzet VS en Nederlandse betaalpiek",
+   "Waarschuwing voor digitale verstoringen",
+   "DWP-storing in het VK",
+   "Mogelijke datadiefstal bij zorggroep",
+   "Kledingarbeiders Bangladesh en Zara/H&M",
+   "Protest bij Meta in India",
+   "Chinese spionage en Nvidia",
+   "Regionaal: isolatie corporatiehuizen en Utrechtse groenstructuur"
+  ],
+  "woorden": 1570,
+  "tts_tekens": 10303,
+  "claude_kosten_usd": 0.1104,
+  "feitencheck_aanpassingen": 5,
+  "feeds_met_problemen": [
+   "NOS (tech): geen berichten in de afgelopen 12 uur",
+   "NOS (opmerkelijk): geen berichten in de afgelopen 12 uur",
+   "NU.nl (wetenschap): geen berichten in de afgelopen 12 uur",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss",
+   "New York Times (tech): geen berichten in de afgelopen 12 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
