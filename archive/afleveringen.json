@@ -1297,5 +1297,45 @@
   ],
   "telegram": true,
   "podcast": false
+ },
+ {
+  "datum": "2026-11-28",
+  "editie": "ochtend",
+  "titel": "Ochtendjournaal zaterdag 28 november 2026",
+  "bestand": "2026-11-28-ochtend.mp3",
+  "gemaakt": "2026-11-28T01:16:55.119235+01:00",
+  "duur_sec": 767,
+  "bytes": 6139991,
+  "omschrijving": "Ochtendjournaal: Iran, Polen en cyberaanvallen",
+  "onderwerpen": [
+   "Iranoorlog en Amerikaanse blokkade",
+   "Polen en Russische drones en raketten",
+   "Nederlandse CV90-aankoop",
+   "OpenAI tegen Apple",
+   "Hack bij Cloud One van de Amerikaanse luchtmacht",
+   "Cyberincident bij Britse DWP",
+   "Spaanse verkiezingen en woningcrisis",
+   "Odido en CUIC",
+   "Vitens tarieven en Stellantis",
+   "Tesla en EMAG, Palantir en Polen",
+   "Russische sabotage in Europa",
+   "Black Friday",
+   "Zelensky over Trump en Poetin"
+  ],
+  "woorden": 1834,
+  "tts_tekens": 11940,
+  "claude_kosten_usd": 0.1394,
+  "feitencheck_aanpassingen": 4,
+  "feeds_met_problemen": [
+   "NU.nl (wetenschap): geen berichten in de afgelopen 24 uur",
+   "BNR (economie): HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Abnr.nl+when%3A24h&hl=nl&gl=NL&ceid=NL:nl",
+   "BBC (tech): geen berichten in de afgelopen 24 uur",
+   "The Guardian (buitenland): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
+   "The Guardian (tech): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/technology/rss",
+   "The Guardian (wetenschap): HTTPError: 403 Client Error: Forbidden for url: https://www.theguardian.com/environment/climate-crisis/rss",
+   "TechCrunch (tech): geen berichten in de afgelopen 24 uur"
+  ],
+  "telegram": true,
+  "podcast": false
  }
 ]
